@@ -11,7 +11,8 @@ This project uses a Support Vector Machine (SVM) classifier to predict whether a
 - 🌐 Gradio web interface for easy predictions
 
 ## 📂 Files
-
+-`Dataset.ipynb` – Jupyter notebook for data loading, preprocessing, model training, evaluation, and saving `.pkl` files.
+- `diabetes.py` – Python script version of the notebook for training and saving the model.
 - `diabetes.csv`: Dataset
 - `model.pkl`: Trained SVM model
 - `scaler.pkl`: StandardScaler used for preprocessing
